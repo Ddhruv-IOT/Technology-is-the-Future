@@ -231,6 +231,15 @@ div.gallery {
 
 }
 
+div.gallery_analytics {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 450px;
+  height: 400px;
+
+}
+
 div.gallery:hover {
   border: 1px solid #777;
 }
@@ -238,6 +247,12 @@ div.gallery:hover {
 div.gallery iframe {
   width: 300px;
   height: 200px;
+  padding: 10px 12px;
+}
+
+div.gallery img {
+  width: 400px;
+  height: 400px;
   padding: 10px 12px;
 }
 
