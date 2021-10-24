@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title>SAP WEBSITE</title>
+</head>
+
+<body>
+	<style type="text/css">
+		* {
+  			box-sizing: border-box;
+  			border-color: black;
+		}
+
+		.head{
+			text-align:center;
+			color:black;
+			padding: 45px;
+			background-image: linear-gradient(yellow,blue);
+		}
+		.navigation{
+			background-color: black;
+			display: flex;
+			position: relative;
+		}
+
+		.navigation a{
+			color: white;
+			text-decoration-color: green;
+			padding:20px;
+			text-align:center;
+		}
+
+		.navigation a:hover {
+			background-color: white;
+			color:black;
+		}
+
+		.mainbody{
+			display: flex;
+			flex-wrap: wrap;
+		}
+
+		.side{
+			flex: 0%;
+			background-color: lightgray;
+			padding: 20px;
+		}
+
+		.main{
+			flex:100%;
+			background-color: orange;
+			padding: 20px;
+		}
+
+		.img{
+			/*background-color: green*/;
+			width: 100%;
+			padding: 20px;
+			height: 400px;
+			background-size:cover; 
+		}
+
+		.imgstudentname{
+			flex-direction: 20%
+			background-color: black;
+			width: 15%;
+			/*padding: 20px;*/
+			height: 100%;
+			background-size:cover; 
+		}
+		
+		.studentimage{
+			background-color: green;
+			width: 100%;
+			/*padding: 20px;*/
+			height: 75%;
+			background-size:cover; 
+		}
+
+		.studentname{
+			background-color: hotpink;
+			width: 100%;
+			margin-top:2%;
+			height: 23%;
+			background-size:cover; 
+			font-weight: bold;
+			font-size: 15px;
+			padding: 15px;
+		}
+		
+		.cse{ 
+			display: flex;
+			width: 100%;
+			/*padding: 20px;*/
+			height: 300px;
+			border: 5px;
+			border-color: black;
+			background-color: red;
+			border-style: solid;
+			margin-top: 5px;
+		}
+ 		
+ 		.dd{
+ 			display: flex;
+			width: 100%;
+			/*padding: 20px;*/
+			height: 300px;
+			border: 5px;
+			border-color: black;
+			background-color: blue;
+			border-style: solid;
+			margin-top: 5px;
+
+ 		}
+
+		.foot{
+			background-color: gray;
+			text-align:center;
+			padding: 20px;
+		}
+
+		.details{
+			flex:70%;
+			background-color: yellow;
+			float: right;
+			/*position: relative;*/
+			padding: 20px;
+			margin-top: 10px;
+			margin-bottom: 10px;
+			font-weight: bold;
+			font-size: 25px;
+			text-align: center;
+		}
+		
+		p{
+			font-size: 15;
+			font-weight: normal;
+		}
+
+		.dir1 {
+  			/*position: relative;*/
+  			/*display: inline-block;*/
+		}
+		
+		.drop-down-links{
+			display: none;
+ 			position: absolute;
+  			background-color: blue;
+  			min-width: 160px;
+  			box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  			z-index: 1;
+		}
+
+		.drop-down-links a{
+			padding: 12px 16px;
+  			text-decoration: none;
+  			display: block;
+			color: white;
+		}
+
+		.drop-down-links a:hover {
+			background-color: green;
+		}
+
+		.dir1:hover .drop-down-links {
+			display: block;
+		}
+
+		@media screen and (max-width: 800px){
+			.navigation,.dir1{
+				flex-direction: column;
+			}
+			.mainbody{
+				flex-direction: column;
+				height: 100%;
+			}
+			.cse,.dd{
+				flex-direction: column;
+				height: 40%;
+				width: 100%;
+			}
+			.imgstudentname{
+				flex-direction: column;
+				height: 100%;
+				width: 100%;
+			}
+			.details{
+				flex-direction: column;
+				height: 100%;
+				width: 100%;
+				font-size: 15px;
+			}
+		}
+	</style>
+
+<div class="head">
+	<h1>SELF RELIANCE DIGITAL INDIA</h1>
+	<img src="https://images.indianexpress.com/2020/05/abhiyan.jpg" id="image" class="img">
+</div>
+
+<div class="navigation">
+	<a href="#" class="fa fa-home"></a>
+	<a href="https://www.instagram.com/ourawarenesssap/" class="fa fa-instagram"></a>
+	<a href="https://www.facebook.com/Self-reliance-digital-india-101413688407035/" class="fa fa-facebook"></a>
+	<div class="dir1 navigation">
+		<a href="#" class="fa fa-external-link">
+		<div class="drop-down-links">
+			<a href="#Hitesh">P.Hitesh</a>
+			<a href="#Rachit">Rachit Gupta</a>
+			<a href="#Saurabh">Saurabh Mehta</a>
+			<a href="#Ddhruv">Ddhruv Arora</a>
+			<a href="#Utkarsh">Utkarsh Ranjan</a>
+		</div>
+		</a>
+	</div>
+</div>
+
+<div class="mainbody">
+	<div class="main">
+		<!--h1>Main panel</h1>
+		<h2>Data goes here!</h2-->
+		<H1></H1>
+		<H2></H2>
+		<div id="Hitesh" class="cse">
+			<div class="imgstudentname">
+				<div class = "studentimage"><img src="assets/hitesh.jpeg" height="100%" width="100%"></div>
+				<div class="studentname">
+					<a href="http://callmehitesh.blogspot.com/2020/10/behavioural-science-assignment-main.html">P.HITESH<br/> A20405219084<br/> Btech CSE</a>
+				</div>
+			</div>
+			<div class="details"><U>TOPIC: INTRO TO SELF RELIANCE DIGITAL INDIA</U>
+				<p>The world’s biggest lockdown imposed to contain the spread of COVID-19 has severely impacted the domestic economic activities as it brought nearly 70% of economic activity, investment, exports, and discretionary consumption to a standstill.
+				WHAT IS AATAM NIRBHAR BHARAT:
+				The focal point of the concept is to make the nation self-reliant with more focus on local manufacturers and service providers.</p>
+				<p>
+					<a href="http://callmehitesh.blogspot.com/2020/10/behavioural-science-assignment-main.html"> Way to my blog</a>
+				</p>
+			</div>
+		</div>
+		<div id="Rachit" class="cse"><div class="imgstudentname">
+				<div class = "studentimage"><img src="assets/rachit.jpeg" height="100%" width="100%"></div>
+				<div class="studentname"><a href="https://awarearoundglobe.blogspot.com/2021/04/2-impact-on-indian-market-due-to.html">
+					RACHIT GUPTA<br/> A20405219088<br/> Btech CSE</a></div>
+			</div>
+			<div class="details"><U>TOPIC: Impact on indian market due to disturbance on LAC</U>
+				<p>The ongoing India-China LAC tension is one that calls for alertness if not worry, Zee Business Managing Editor Anil Singhvi opines. The tension brewing between the two neighbours may lead to market volatility and movement on both sides, Singhvi said. </p>
+				<p>
+					<a href="https://awarearoundglobe.blogspot.com/2021/04/2-impact-on-indian-market-due-to.html"> Way to my blog</a>
+				</p>
+			</div>
+		</div>
+		<div id="Saurabh" class="cse"><div class="imgstudentname">
+				<div class = "studentimage"><img src="assets/saurabh.jpeg" height="100%" width="100%"></div>
+				<div class="studentname"><a href="https://saurabhmehta-sap.blogspot.com/2020/10/atma-nirbhar-bharat-abhiyan.html">
+					SAURABH MEHTA<br/> A20405219103<br/> Btech CSE</a></div>
+			</div>
+			<div class="details"><U>TOPIC: Atma Nirbhar Bharat Abhiyan</U>
+				<p>The world’s biggest lockdown imposed to contain the spread of COVID-19 has severely impacted the domestic economic activities as it brought nearly 70% of economic activity, investment, exports, and discretionary consumption to a standstill.And will eventually drag down the GDP growth of the country to negative single-digit band for FY21E.</p>
+				<p>
+					<a href="https://saurabhmehta-sap.blogspot.com/2020/10/atma-nirbhar-bharat-abhiyan.html"> Way to my blog</a>
+				</p>
+			</div>
+		</div>
+		<div id="Ddhruv" class="dd"><div class="imgstudentname">
+				<div class = "studentimage"><img src="assets/dd.jpeg" height="100%" width="100%"></div>
+				<div class="studentname"><a href="https://bsprojectsem2.blogspot.com/2020/09/blog-post.html">
+					DDHRUV ARORA<br/> A20422119001<br/>CSE DUAL DEGREE</a></div>
+			</div>
+			<div class="details"><U>TOPIC: INTRO TO SELF RELIANCE DIGITAL INDIA</U>
+				<p>The corona virus outbreak has changed everything. The risk to human life is the greatest fear, the bearing COVID-19 has had on the world cannot be overlooked.Stock markets have crashed, airlines are experiencing irreparable losses and several small and medium businesses are shutting, schools are closed because they do not have what it takes to survive in this uncertain world.</p>
+				<p>
+					<a href="https://bsprojectsem2.blogspot.com/2020/09/blog-post.html"> Way to my blog</a>
+				</p>
+			</div>
+		</div>
+		<div id="Utkarsh" class="dd"><div class="imgstudentname">
+				<div class = "studentimage"><img src="assets/utkarsh.jpeg" height="100%" width="100%"></div>
+				<div class="studentname"><a href="https://utkarshranjan.blogspot.com/2020/10/advantages-and-disadvantages-of-online.html">UTKARSH RANJAN<br/> A20422119002<br/>CSE DUAL DEGREE</a></div>
+			</div>
+			<div class="details"><U>TOPIC: INTRO TO SELF RELIANCE DIGITAL INDIA</U>
+				<p>One of the main characteristics of online education is the freedom of schedule for access to study.
+				Anyone from home and with a computer can access the content, perform exercises on each topic studied and advance in learning at your own pace and according to your availability.</p>
+				<p>
+					<a href="https://utkarshranjan.blogspot.com/2020/10/advantages-and-disadvantages-of-online.html"> Way to my blog</a>
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="foot">
+	<h1>Hope you like it!</h1>
+</div>
+
+<script type="text/javascript">
+	var image_data = [
+		"https://images.indianexpress.com/2020/05/abhiyan.jpg",
+		"https://1.bp.blogspot.com/-rUQBFQJRaTM/Xr5VxATZtwI/AAAAAAAAARs/AA506pen_8k0_dAxDpayRf8AYnocN74WACPcBGAYYCw/w1200-h630-p-k-no-nu/20200515_140351.jpg",
+		"https://hindi.cdn.zeenews.com/hindi/sites/default/files/2020/06/30/586098-made-in-india.jpg",
+		"https://static-assets.pratilipi.com/pratilipi/cover?pratilipiId=6755373522594611&version=dad45329-f9a9-4892-96c1-8e60c50cacd5",
+		"https://vignette.wikia.nocookie.net/india/images/8/87/Main-qimg-854f096e8ba92afd9b6cf4a6b84242b7-c.jpeg/revision/latest?cb=20180904020149"];
+	var index = 0;
+	setInterval(function image_changer() {
+		if (index === image_data.length) {
+			index = 0;
+		}
+		document.getElementById('image').src = image_data[index];
+		index = index + 1;
+
+	},2000);
+</script>
+
+</body>
+</html>
