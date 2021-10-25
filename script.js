@@ -14,9 +14,9 @@ var index = 0;
 // },2000);
 
 
-tabcontent = document.getElementsByClassName("tabcontent");
-//tabcontent[0].style.display = "block";
-document.getElementById("London").style.display = "block";
+// tabcontent = document.getElementsByClassName("tabcontent");
+// //tabcontent[0].style.display = "block";
+// document.getElementById("London").style.display = "block";
 
 function openCity(evt, cityName) {
   var i, tabcontent, tablinks;

@@ -250,12 +250,15 @@ div.gallery {
 div.gallery_analytics {
 	align-content: center;
   margin: 5px;
-  padding: 10px;
-  margin: 5px;
+  padding: 15px;
   border: 1px solid #ccc;
   float: left;
   width: 450px;
-  height: 400px;
+  height: 440px;
+  background-color: olive;
+  color: white;
+  font-size: 40;
+  font-weight: bold;
 
 }
 
@@ -271,13 +274,17 @@ div.gallery iframe {
 }
 
 div.gallery img {
+	align-self: center;
+	align-items: center;
+	align-content: center;
   width: 400px;
-  height: 400px;
+  height: 450px;
   padding:12px;
+  background-color: black;
 }
 
 
-#gallery_pics{
+#gallery_pics_heading{
 	text-align: center;
 	color: white;
 	font-weight: bold;
