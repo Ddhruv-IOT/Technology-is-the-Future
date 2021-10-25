@@ -1,3 +1,6 @@
+body{
+	background-color: black;
+}
 
 		* {
   			box-sizing: border-box;
@@ -6,17 +9,35 @@
 
 		.head{
 			text-align:center;
-			color:black;
+			color:whitesmoke;
 			padding: 45px;
-			background-image: linear-gradient(yellow,blue);
+			background-image: linear-gradient(#242582, blue);
 		}
+
+		.tab button {
+  float: left;
+  background-color: black;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+  color: white;
+			text-decoration-color: green;
+			padding:20px;
+			text-align:center;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
 		.navigation{
 			background-color: black;
 			display: flex;
 			position: relative;
 		}
 
-		.navigation a{
+		.navigation a,button{
 			color: white;
 			text-decoration-color: green;
 			padding:20px;
@@ -41,7 +62,7 @@
 
 		.main{
 			flex:100%;
-			background-color: orange;
+			background-image: linear-gradient(#408ec6, #7a2048, #1e2761);
 			padding: 20px;
 		}
 
@@ -188,30 +209,18 @@
 
 		.tab {
   overflow: hidden;
+  display: flex;
+  
   border: 1px solid #ccc;
   background-color: #f1f1f1;
 }
 
 /* Style the buttons inside the tab */
-.tab button {
-  background-color: inherit;
-  float: left;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  padding: 14px 16px;
-  transition: 0.3s;
-  font-size: 17px;
-}
 
-/* Change background color of buttons on hover */
-.tab button:hover {
-  background-color: #ddd;
-}
 
 /* Create an active/current tablink class */
 .tab button.active {
-  background-color: #ccc;
+  background-color: blue;
 }
 
 /* Style the tab content */
@@ -259,4 +268,49 @@ div.gallery img {
 div.desc {
   padding: 30px;
   text-align: center;
+}
+
+
+
+
+/* The grid container */
+.grid-container {
+  display: grid;
+  grid-template-areas:  
+    'left middle middle middle middle right' 
+  /* grid-column-gap: 10px; - if you want gap between the columns */
+} 
+
+.left,
+.middle,
+.right {
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Style the left column */
+.left {
+  grid-area: left;
+}
+
+/* Style the middle column */
+.middle {
+  grid-area: middle;
+}
+
+/* Style the right column */
+.right {
+  grid-area: right;
+}
+
+
+@media (max-width: 600px) {
+  .grid-container  {
+    grid-template-areas: 
+      'header header header header header header' 
+      'left left left left left left' 
+      'middle middle middle middle middle middle' 
+      'right right right right right right' 
+      'footer footer footer footer footer footer';
+  }
 }

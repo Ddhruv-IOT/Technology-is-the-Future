@@ -2,16 +2,16 @@
 var image_data = [ ];
 var index = 0;
 
-setInterval(function image_changer() 
-{
-	if (index === image_data.length)
-	{
-		index = 0;
-	}
+// setInterval(function image_changer() 
+// {
+// 	if (index === image_data.length)
+// 	{
+// 		index = 0;
+// 	}
 
-	document.getElementById('image').src = image_data[index];
-	index = index + 1;
-},2000);
+// 	document.getElementById('image').src = image_data[index];
+// 	index = index + 1;
+// },2000);
 
 
 function openCity(evt, cityName) {
@@ -27,15 +27,3 @@ function openCity(evt, cityName) {
   document.getElementById(cityName).style.display = "block";
   evt.currentTarget.className += " active";
 }
-
-// if (i == 0){alert("sjwi")}<a href="#" class="fa fa-external-link">
-// 				<div class="drop-down-links">
-// 					<a href="#Hitesh">P.Hitesh</a>
-// 					<a href="#Rachit">Rachit Gupta</a>
-// 					<a href="#Saurabh">Saurabh Mehta</a>
-// 					<a href="#Ddhruv">Ddhruv Arora</a>
-// 					<a href="#Utkarsh">Utkarsh Ranjan</a>
-// 				</div>
-// 				</a>
-
-
