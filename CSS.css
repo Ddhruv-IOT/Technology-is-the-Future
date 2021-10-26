@@ -212,7 +212,7 @@ body{
   overflow: hidden;
   display: flex;
   
-  border: 1px solid #ccc;
+  /*border: 1px solid #ccc;*/
   background-color: #f1f1f1;
 }
 
