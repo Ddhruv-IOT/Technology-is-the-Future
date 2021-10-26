@@ -183,7 +183,7 @@ body{
     */
      border-top: none;
 }
- .img_gallery{
+ .img_gallery, .analytics_gallery_center_align{
  	display: flex;
  	align-content: center;
   justify-content: center;
@@ -235,7 +235,7 @@ body{
      padding:12px;
      background-color: black;
 }
- #gallery_pics_heading{
+ #gallery_pics_heading, #gallery_analytics_heading{
      text-align: center;
      color: white;
      font-weight: bold;
