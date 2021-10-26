@@ -163,31 +163,6 @@ body{
  .dir1:hover .drop-down-links {
      display: block;
 }
- @media screen and (max-width: 800px){
-     .navigation,.dir1{
-         flex-direction: column;
-    }
-     .mainbody{
-         flex-direction: column;
-         height: 100%;
-    }
-     .cse,.dd{
-         flex-direction: column;
-         height: 40%;
-         width: 100%;
-    }
-     .imgstudentname{
-         flex-direction: column;
-         height: 100%;
-         width: 100%;
-    }
-     .details{
-         flex-direction: column;
-         height: 100%;
-         width: 100%;
-         font-size: 15px;
-    }
-}
  .tab {
      overflow: hidden;
      display: flex;
@@ -208,6 +183,14 @@ body{
     */
      border-top: none;
 }
+ .img_gallery{
+ 	display: flex;
+ 	align-content: center;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+ }
  div.gallery {
      align-content: center;
      margin: 5px;
@@ -284,6 +267,32 @@ body{
 /* Style the right column */
  .right {
      grid-area: right;
+}
+
+ @media screen and (max-width: 800px){
+     .navigation,.dir1{
+         flex-direction: column;
+    }
+     .mainbody{
+         flex-direction: column;
+         height: 100%;
+    }
+     .cse,.dd{
+         flex-direction: column;
+         height: 40%;
+         width: 100%;
+    }
+     .imgstudentname{
+         flex-direction: column;
+         height: 100%;
+         width: 100%;
+    }
+     .details{
+         flex-direction: column;
+         height: 100%;
+         width: 100%;
+         font-size: 15px;
+    }
 }
  @media (max-width: 600px) {
      .grid-container {
