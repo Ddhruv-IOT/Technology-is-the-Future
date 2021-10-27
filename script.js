@@ -1,5 +1,19 @@
+var timeleft = 4;
+
+var downloadTimer = setInterval(function(){
+  if(timeleft <= 0){
+    clearInterval(downloadTimer);
+  }
+  document.getElementById("l2").innerHTML = timeleft;
+  timeleft -= 1;
+}, 1000);
+
+
 window.onload = function(){
-document.getElementById("London").style.display = "block";}
+document.getElementById("London").style.display = "block";
+document.getElementById("l1").style.display="none";
+document.getElementById("l2").style.display="none";
+document.getElementById("l3").style.display="none";}
 
 var image_data = ["1.png", "2.png", "3.png", "4.png"]
 

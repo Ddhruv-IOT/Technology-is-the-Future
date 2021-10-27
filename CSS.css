@@ -293,6 +293,19 @@ body{
          width: 100%;
          font-size: 15px;
     }
+
+    .tab button {
+     flex-direction: column;
+     background-color: black;
+     cursor: pointer;
+     padding: 14px 16px;
+     transition: 0.3s;
+     font-size: 17px;
+     color: white;
+     text-decoration-color: green;
+     padding:20px;
+     text-align:center;
+}
 }
  @media (max-width: 600px) {
      .grid-container {
