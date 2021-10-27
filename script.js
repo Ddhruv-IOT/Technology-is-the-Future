@@ -1,5 +1,8 @@
+window.onload = function(){
+document.getElementById("London").style.display = "block";}
 
 var image_data = ["1.png", "2.png", "3.png", "4.png"]
+
 var index = 0;
 
 setInterval(function image_changer() 
@@ -11,12 +14,8 @@ setInterval(function image_changer()
 
 	document.getElementById('image').src = "assets/" + image_data[index];
 	index = index + 1;
-},2000);
+}, 2000);
 
-
-tabcontent = document.getElementsByClassName("tabcontent");
-//tabcontent[0].style.display = "block";
-document.getElementById("London").style.display = "block";
 
 function openCity(evt, cityName) {
   var i, tabcontent, tablinks;
