@@ -278,6 +278,11 @@ div.gallery img {
     font-weight: bold;
 }
 
+.resources_sub_heads{
+    align-content: center;
+    text-align: center;
+}
+
 div.desc {
     padding: 20px;
     text-align: center;
@@ -295,7 +300,7 @@ div.desc {
 .middle,
 .right {
     padding: 10px;
-    height: 300px;
+    height: 400px;
     /* Should be removed. Only for demonstration */
 }
 
