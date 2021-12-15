@@ -1,28 +1,32 @@
-# Technology-is-the-Future
-website coming soon... work is on...😎😎
+# Social Awareness Program Website
 
-## WEBSITE!!!<---->
-
-# Social Awareness Project Website
-Link to website: https://ddhruv-iot.github.io/
-
-# What is SAP (Social Awareness Project)
-The social awareness program is aimed at spreading awareness among people on a particular topic for better understanding.
+## AIM of SAP (Social Awareness Program)
+The main aim of social awareness program or SAP is to spread awareness about a specific topic. 
+<br/>
+For spreading awareness, one can write blogs, make videos, websites, handles on different social media platforms, etc.
 <br/>
 It is a mandatory task for all students.
 
-# Our Topic - SELF RELIANCE DIGITAL INDIA
-It is aimed to make people better understand that how India is getting digital as well as self-reliant.
+## Our Topic - Technology And Its Future
+So, our main aim was to make people aware of how tech is necessary for life, how it will be in the future and why we need to keep ourselves updated with new technologies.
 
-# Development Team Details
+## Website: 
+https://ddhruv-iot.github.io/Technology-is-the-Future/
+
+# Tech-Details:
+
+## Development Team Details
 - Ddhruv Arora
 - Saurabh Mehta
 
-# Tools and Technologies used
+## Tools and Technologies used
 - Sublime Text 3
 - HTML 5
 - CSS 3
 - Java Script
+- Git 
+- GitHub
+- VS Code
 
 # Thank you
 We hope that you will like our project.
